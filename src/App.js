@@ -1,14 +1,29 @@
 import { hot } from 'react-hot-loader';
 import * as React from 'react';
-import Home from './view/Home';
 
-import './styles/theme.sass';
+import launch from './assets/launch.json';
+import launchSite from './assets/launch_site.json';
+import rocket from './assets/rocket.json';
+
+import LaunchDetails from 'view/LaunchDetails';
+
+
+
+import './styles/theme.scss';
 
 class App extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
       <main>
-        <Home username="DaftCoder" />
+        {/* <Header message="go back"/> */}
+        {/* <Home username="DaftCoder" /> */}
+        {/* <Counter from={4} to={1} onSuccess={() => alert("success!")}/> */}
+        {/* <Hello message="my Friend"/> */}
+        <LaunchDetails
+              launch={launch}
+              launchSite={launchSite}
+              rocket={rocket}
+            />
       </main>
     );
   }

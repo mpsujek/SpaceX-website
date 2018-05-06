@@ -1,0 +1,29 @@
+footer {
+  background-color: #22272b;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .links {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    color: #666666;
+
+    a {
+      color: #a7a9ac;
+      text-decoration: none;
+    }
+
+  }
+  .space{
+    flex:1;
+  }
+  .rights {
+    flex: 1;
+    text-transform: uppercase;
+    color: #666666;
+  }
+}
