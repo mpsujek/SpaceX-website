@@ -3,15 +3,17 @@ import Header from '../components/Header';
 import Section from '../components/Section';
 import MissionLinks from '../components/MissionLinks';
 import Footer from '../components/Footer';
+import format from 'date-fns/format';
+
 
 class LaunchDetails extends React.Component {
 
   render() {
     return (
         <div>
-      <Header message='Back'/>
+      <Header message='Back' onBackClick={this.props.onBackClick}/>
       <Section
-          date={this.props.launch.launch_date_local}
+          date={format(this.props.launch.launch_date_local, 'DD MMMM YYYY')}
           title={this.props.launch.launch_site.site_name}
           missionPatch={this.props.launch.links.mission_patch}
           details={this.props.launch.details}

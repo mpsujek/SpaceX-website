@@ -1,0 +1,48 @@
+.FlightList {
+  background: #0f1112;
+  padding-bottom: 50px;
+
+  &__dataContainer {
+    width: 50%;
+    cursor: pointer;
+    padding: 50px;
+    color: #ffffff;
+    border-right: 1px dashed #ffffff;
+  }
+
+  &__date {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+    &:after{
+      position: absolute;
+      left: 0;
+      top:25px;
+      width: 90%;
+      height: 1px;
+      background: #ccac5b;
+      content:'';
+
+  }
+
+  &__data {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    color: #a7a9ac;
+    }
+  }
+
+  &__rocket {
+    & span {
+      color: #ffffff;
+    }
+  }
+
+  &__launch-site {
+    & span {
+      color: #ffffff;
+    }
+  }
+}

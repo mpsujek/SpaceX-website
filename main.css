@@ -1,0 +1,336 @@
+header {
+  width: 100%;
+  background-color: #0f1112;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  header .box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    header .box .link {
+      text-decoration: none;
+      color: #ccac5b;
+      font-size: 20px;
+      letter-spacing: 2px; }
+    header .box .spacex-logo {
+      width: 200px; }
+
+.container {
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .container .section {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+
+.maininfo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 40px;
+  width: 50vh; }
+  .maininfo .date {
+    font-size: 15px;
+    color: #a7a9ac;
+    margin-bottom: 25px; }
+  .maininfo .title {
+    color: #0f1112;
+    font-size: 40px; }
+  .maininfo .counter {
+    color: #0f1112;
+    margin-bottom: 25px; }
+  .maininfo .missionPatch {
+    width: 200px; }
+
+.details {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0 50px;
+  margin-bottom: 20px;
+  color: #666666; }
+  .details h2 {
+    color: #ccac5b;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 30px; }
+    .details h2:after {
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      top: 30px;
+      left: 0;
+      background-color: #ccac5b;
+      content: ''; }
+  .details p {
+    line-height: 20px; }
+  .details .dataContainer {
+    padding-left: 20px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 20px; }
+    .details .dataContainer .data {
+      font-size: 12px;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+      letter-spacing: 5px;
+      position: relative; }
+      .details .dataContainer .data:before {
+        position: absolute;
+        width: 20px;
+        height: 35px;
+        left: -10px;
+        border-left: #a7a9ac 2px dashed;
+        content: ''; }
+      .details .dataContainer .data span {
+        color: #a7a9ac; }
+    .details .dataContainer.dataContainer--launchPad {
+      height: 110px; }
+
+.MissionLinks {
+  background-image: url(rocket.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .MissionLinks .titleContainer {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+  .MissionLinks .Title {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 20px; }
+  .MissionLinks .linksContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+    .MissionLinks .linksContainer .links {
+      margin: 0 20px;
+      text-decoration: none;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #ffffff;
+      padding: 10px 30px;
+      border-top: 1px solid #ffffff;
+      border-right: 1px solid #ffffff;
+      border-bottom: 1px solid #ffffff;
+      border-left: 1px solid #ffffff;
+      border-radius: 50px;
+      -webkit-transition: 300ms;
+      -o-transition: 300ms;
+      transition: 300ms; }
+      .MissionLinks .linksContainer .links:hover {
+        background-color: #ffffff;
+        color: #666666; }
+
+footer {
+  background-color: #22272b;
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  footer .links {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-transform: uppercase;
+    color: #666666; }
+    footer .links a {
+      color: #a7a9ac;
+      text-decoration: none; }
+  footer .space {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+  footer .rights {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-transform: uppercase;
+    color: #666666; }
+
+.LaunchesHeader {
+  background: #0f1112;
+  height: 400px;
+  padding: 200px 50px 0; }
+  .LaunchesHeader__container {
+    width: 100%;
+    height: 100%;
+    background: url(mars.png) no-repeat center center;
+    background-size: contain;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .LaunchesHeader__logo img {
+    width: 600px; }
+  .LaunchesHeader__title {
+    text-align: center;
+    font-size: 25px;
+    color: #a7a9ac;
+    padding: 10px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    font-weight: 100; }
+
+.Filters {
+  background: #0f1112;
+  padding: 50px 0; }
+  .Filters__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .Filters__button {
+    color: #a7a9ac;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    border: solid 1px #a7a9ac;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin-right: 20px;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms; }
+    .Filters__button:hover {
+      color: #ffffff;
+      border-color: #ffffff;
+      -webkit-box-shadow: inset 0px 0px 46px -16px white;
+      box-shadow: inset 0px 0px 46px -16px white; }
+    .Filters__button.Filters__button--active {
+      color: #ffffff;
+      border-color: #ffffff;
+      -webkit-box-shadow: inset 0px 0px 46px -16px white;
+      box-shadow: inset 0px 0px 46px -16px white; }
+
+.FlightList {
+  background: #0f1112;
+  padding-bottom: 50px; }
+  .FlightList__dataContainer {
+    width: 50%;
+    cursor: pointer;
+    padding: 50px;
+    color: #ffffff;
+    border-right: 1px dashed #ffffff; }
+  .FlightList__date {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative; }
+    .FlightList__date:after {
+      position: absolute;
+      left: 0;
+      top: 25px;
+      width: 90%;
+      height: 1px;
+      background: #ccac5b;
+      content: ''; }
+    .FlightList__date__data {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      text-transform: uppercase;
+      color: #a7a9ac; }
+  .FlightList__rocket span {
+    color: #ffffff; }
+  .FlightList__launch-site span {
+    color: #ffffff; }
+
+html {
+  font-size: 14px; }
+
+body {
+  margin: 0;
+  font-family: 'OpenSans',sans-serif;
+  font-weight: 300; }
+
+main {
+  width: 100%; }
+
+
+/*# sourceMappingURL=main.css.map*/
